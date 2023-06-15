@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\playermovement.cs" />
+     <Compile Include="Assets\DeathZone.cs" />
      <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
      <Compile Include="Assets\GameoverScreen.cs" />
