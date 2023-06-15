@@ -7,6 +7,7 @@ TagManager:
   - ground
   - obstacle
   - GameOverPanel
+  - kill
   layers:
   - Default
   - TransparentFX
