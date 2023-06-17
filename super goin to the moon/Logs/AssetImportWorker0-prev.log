@@ -15,11 +15,19 @@ C:/Users/semde/super goin to the moon
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 50094
 Successfully changed project path to: C:/Users/semde/super goin to the moon
 C:/Users/semde/super goin to the moon
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 109.39 ms, found 3 plugins.
+=======
+54919
+Successfully changed project path to: C:/Users/semde/OneDrive/Documenten/GitHub/GameDev/super goin to the moon
+C:/Users/semde/OneDrive/Documenten/GitHub/GameDev/super goin to the moon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 115.77 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,10 +57,26 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2516ms)
 		BeginReloadAssembly (138ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006994 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 317.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7850ms)
+		BeginReloadAssembly (176ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (1034ms)
 			LoadAssemblies (133ms)
@@ -69,10 +94,30 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
+=======
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (5844ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (306ms)
+			SetupLoadedEditorAssemblies (961ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (318ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.012828 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +128,459 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2822ms)
 		BeginReloadAssembly (355ms)
+=======
+Registered in 0.056752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 157.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4637ms)
+		BeginReloadAssembly (479ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (3859ms)
+			LoadAssemblies (385ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1338ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (790ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 8.086800 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.223900 ms MarkObjects: 7.212300 ms  DeleteObjects: 0.150300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.074573 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.082096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150110 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000862 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058049 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001121 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057869 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001126 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151176 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001218 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051324 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001285 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143703 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001026 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056677 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001031 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.012999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044897 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000995 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152755 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001228 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134239 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000816 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.009411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050570 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000876 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.009969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133459 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000826 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.008829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035747 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000580 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.006181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026720 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000559 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.005855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032968 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000790 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.008811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142331 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000797 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.008025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037304 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000824 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.009257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034404 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000827 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.008549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047900 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000879 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164761 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001168 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055716 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001458 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151735 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001273 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054694 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001227 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056886 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002164 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167911 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001258 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052720 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001051 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.013687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128874 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000590 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.006193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027604 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000642 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.007582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142794 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000769 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.007412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043691 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000841 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.009182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139846 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002023 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.065554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101776 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001019 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.016852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075229 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000743 seconds  code(4) message(Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z')
+  ERROR: Build asset version error: assets/gamereloader.cs in SourceAssetDB has modification time of '2023-06-17T10:55:18.9842759Z' while content on disk has modification time of '2023-06-17T10:55:48.3944778Z'
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3398ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2825ms)
+			LoadAssemblies (273ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1138ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (909ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 8.392700 ms (FindLiveObjects: 0.468600 ms CreateObjectMapping: 0.213600 ms MarkObjects: 7.668300 ms  DeleteObjects: 0.039400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.785193 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c91ba963d698b52f37edbdbd7d62f7') in 0.031117 seconds 
+  Import took 0.041793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020207 seconds.
+  path: Assets/GameReloader.cs
+  artifactKey: Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameReloader.cs using Guid(311a4c8d17a9cb1408fcd8432f93cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c91ba963d698b52f37edbdbd7d62f7') in 0.007406 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4300ms)
+		BeginReloadAssembly (304ms)
+>>>>>>> Stashed changes
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (41ms)
 		EndReloadAssembly (2308ms)
 			LoadAssemblies (211ms)
@@ -281,10 +775,21 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (191ms)
 			SetupLoadedEditorAssemblies (831ms)
+=======
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (3770ms)
+			LoadAssemblies (362ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1576ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1183ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+<<<<<<< Updated upstream
 				BeforeProcessingInitializeOnLoad (136ms)
 				ProcessInitializeOnLoadAttributes (644ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
@@ -5797,6 +6302,144 @@ System memory in use after: 95.5 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2892.
 Total: 4.646100 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.129000 ms MarkObjects: 4.140300 ms  DeleteObjects: 0.029500 ms)
+=======
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (879ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 10.471300 ms (FindLiveObjects: 0.600400 ms CreateObjectMapping: 0.302200 ms MarkObjects: 9.510100 ms  DeleteObjects: 0.054800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.019962 seconds.
+  path: Assets/GameOver.cs
+  artifactKey: Guid(79253681d46e75e4e9d667addb6aa627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOver.cs using Guid(79253681d46e75e4e9d667addb6aa627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a35a19ffc8e74b451bb7df1147498f6') in 0.042801 seconds 
+  Import took 0.058231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3066ms)
+		BeginReloadAssembly (419ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2490ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (699ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2458.
+Total: 8.786700 ms (FindLiveObjects: 0.473300 ms CreateObjectMapping: 0.212900 ms MarkObjects: 8.045100 ms  DeleteObjects: 0.053300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4283ms)
+		BeginReloadAssembly (487ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (3467ms)
+			LoadAssemblies (465ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1386ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (766ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 10.356300 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.210100 ms MarkObjects: 9.762600 ms  DeleteObjects: 0.062500 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

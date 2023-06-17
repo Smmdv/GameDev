@@ -51,6 +51,11 @@
      <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
      <Compile Include="Assets\ConstantMovement.cs" />
      <Compile Include="Assets\CollisionHandler.cs" />
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets\GameReloader.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\playercollider.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
