@@ -48,9 +48,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\playermovement.cs" />
+     <Compile Include="Assets\DeathZone.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
+     <Compile Include="Assets\GameoverScreen.cs" />
+     <Compile Include="Assets\Deactive.cs" />
      <Compile Include="Assets\ConstantMovement.cs" />
      <Compile Include="Assets\CollisionHandler.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\playercollider.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
