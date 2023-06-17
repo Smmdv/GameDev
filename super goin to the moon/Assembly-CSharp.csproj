@@ -55,6 +55,7 @@
      <Compile Include="Assets\Deactive.cs" />
      <Compile Include="Assets\ConstantMovement.cs" />
      <Compile Include="Assets\CollisionHandler.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\playercollider.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
