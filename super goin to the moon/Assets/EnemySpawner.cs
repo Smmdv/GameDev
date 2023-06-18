@@ -3,7 +3,9 @@ using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;  // Reference to the enemy prefab
+    [SerializeField]
+    private GameObject enemyPrefab;  // Reference to the enemy prefab
+
     public float spawnInterval = 2f;  // Time interval between enemy spawns
 
     private void Start()
