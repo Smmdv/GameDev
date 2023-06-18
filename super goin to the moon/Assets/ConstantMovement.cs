@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConstantMovement : MonoBehaviour
 {
     public float speed = 5f; // Adjust the speed as desired
+    public float baseSpeed; // Base speed of the enemy
 
     private void Update()
     {
