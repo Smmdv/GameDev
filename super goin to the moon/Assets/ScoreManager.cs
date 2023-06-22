@@ -1,14 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public Text scoreText;          // Reference to the UI text displaying the current score
-    public Text highScoreText;      // Reference to the UI text displaying the high score
+    public TMP_Text scoreText;          // Reference to the UI text displaying the current score
+    public TMP_Text highScoreText;      // Reference to the UI text displaying the high score
 
     private int score = 0;          // Current score
     private int highScore = 0;      // High score
+
+    private bool isGameRunning = true;  // Flag to track if the game is running or paused
 
     private void Start()
     {
@@ -20,9 +23,13 @@ public class ScoreManager : MonoBehaviour
 
     private void Update()
     {
-        // Increase the score by 1 every second
-        score += 1;
-        UpdateScoreText();
+        // Check if the game is running
+        if (isGameRunning)
+        {
+            // Increase the score by 1 every frame
+            score += 1;
+            UpdateScoreText();
+        }
     }
 
     private void UpdateScoreText()
@@ -52,8 +59,8 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        // Reset the current score
-        score = 0;
-        UpdateScoreText();
+        // Stop the game and pause the score increase
+        isGameRunning = false;
     }
 }
+

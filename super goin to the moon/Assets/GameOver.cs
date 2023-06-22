@@ -10,16 +10,23 @@ public class GameOver : MonoBehaviour
     {
         if (other.CompareTag("obstacle") && gameObject.CompareTag("Player") && !isGameOver)
         {
+             
             isGameOver = true;
             ShowGameOverPanel();
         }
     }
 
-    private void ShowGameOverPanel()
+   private void ShowGameOverPanel()
+{
+    GameOverPanel.SetActive(true);
+    Time.timeScale = 0; // Pause the game
+
+    ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
+    if (scoreManager != null)
     {
-        GameOverPanel.SetActive(true);
-        Time.timeScale = 0; // Pause the game
+        scoreManager.EndGame();
     }
+}
 
     public void RestartGame()
     {

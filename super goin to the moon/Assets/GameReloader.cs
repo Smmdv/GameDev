@@ -13,6 +13,8 @@ public class GameReloader : MonoBehaviour
 
             // Reset the time scale to 1
             Time.timeScale = 1f;
+            // reset score
+           
         }
     }
 }
